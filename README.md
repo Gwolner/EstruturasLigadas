@@ -1,6 +1,6 @@
 # Estruturas ligadas
 
-Um estudo acerca das estruturas ligadas pilha, fila e lista. Para verificar o uso de estruturas que fazem uso de array, veja o outro estudo clicando [aqui.]().
+Um estudo acerca das estruturas ligadas pilha, fila e lista. Para verificar o uso de estruturas que fazem uso de array, veja o outro estudo clicando [aqui]().
 
 Definição
 
@@ -27,26 +27,36 @@ Das três estruturas de dados, pilha e fila se comportam conforme esperado, com 
 
 ### Lista encadeada (Lista ligada)
 
-Nenhuma novidade em relação a lista TAD, exceto a felxibilidade de tamanho ja mencionada.
+Nenhuma novidade em relação a lista além da já mencionada flexibilidade de tamanho.
 
 <img src="img/lista_encadeada.png" aling="center"> 
 
 * Inserção
 
-<img src="img/insere.png" aling="center"> 
+Para adicionar um dado é preciso que o novo nó aponte para o nó seguinte da posição que se deseja ocupar e, em seguida, que o nó anterior a esta passe a apontar o novo nó, fazendo assim com que o novo nó seja inserido entre os dois nós já existentes.
+
+<img src="img/insere.png" aling="center">
 
 * Remoção
+
+O nó que se deseja remover possui um nó anterior e um nó seguinte. O nó anterior deve apontar para o nó seguinte e desassociar o nó que será removido. Este, por sua vez, deve desassociar-se do no seguinte, passando a ficar fora da lista.
 
 <img src="img/remove.png" aling="center">
 
 ### Lista duplamente encadeada (Lista duplamente ligada)
 
+É uma lista em que um nó não só aponta para o nó seguinte, como tambem para o nó anterior.
+
 <img src="img/duplamente_encadeada.png" aling="center">
 
 ### Lista circular
 
+Quando o último nó da lista aponta para o primeiro de modo que este aponte para o próximo e assim por diante até chegar novamente ao último, trata-se uma lista circular. Na lista circular, qualquer nó pode apontar para o seguinte de modo a retornar pra ele mesmo.
+
 <img src="img/circular.png" aling="center">
 
 ### Lista circular duplamente encadeada (Lista circular ligada duplamente)
+
+Como o nome sugere, possui um comportamento híbrido da lista circular e duplamente encadeada. Cada nó aponta para o seguinte e para o anterior ao mesmo tempo, sendo que o primeiro nó aponta para o último e para o segundo, enqaunto o último aponta para o penúltimo e para o primeiro.
 
 <img src="img/circular_dupla.png" aling="center">
