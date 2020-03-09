@@ -1,6 +1,6 @@
 # Estruturas ligadas
 
-Um estudo acerca das estruturas ligadas pilha, fila e lista. Para verificar o uso de estruturas que fazem uso de array, veja o outro estudo clicando [aqui]().
+Um estudo acerca das estruturas ligadas pilha, fila e lista. Para verificar o uso de estruturas que fazem uso de array, veja o outro estudo clicando [aqui](https://github.com/Gwolner/tad-pilha-fila-lista).
 
 Definição
 
